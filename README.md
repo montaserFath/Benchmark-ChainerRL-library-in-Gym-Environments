@@ -52,11 +52,23 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 - **Pendelum**
 
+|  |  **TRPO** | **PPO** | **DDPG** | 
+| :---:         |     :---:      |   :---: |   :---: | 
+|**Mean Reward** | -1216| -1252 | **-594** | 
+|**Maximum Reward** | -986| -489  | -**371** |
+
 ![Pendelum_result](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/pendulum_mean.png)
 
 - **Bipedal Walker2D**
 
+|  |  **TRPO** | **PPO** | **DDPG** | 
+| :---:         |     :---:      |   :---: |   :---: | 
+|**Mean Reward** | 120| **163** | -96 | 
+|**Maximum Reward** | 183| **262**  | -25 |
+
+
 ![Bipedal_results](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/walker_mean.png)
+
 
 ## Demo
 - **Random Actions**
