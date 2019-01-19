@@ -36,8 +36,7 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 
 #### Pendelum
 
-**<img src="https://latex.codecogs.com/gif.latex?R_{t}=\theta^2 + 0.1\theta_dt^2 + 0.001action^2" />**
-
+![reward_fun](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/reward_fun.png)
 
 #### Bipedal Walker2D
 
