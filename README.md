@@ -76,17 +76,18 @@ The termination condition for the episode is filling 300 steps or the height of 
 ![DDPG](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/DDPG_walker2d.gif)
 ## Discussion
 
-- OpenSim [ProstheticsEnv](http://osim-rl.stanford.edu) is a very **complex environment**, it contains more than 158 continuous state variables and 19 continuous action variables.
+- **[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves the best reward in Pendelum** because it designed for high dimensions continuous space environments and it uses the replay buffer.
 
-- RL algorithms take a **long time** to build a complex policy which has the ability to compute all state variables and select action variables which will maximize the reward.
+- **[PPO](https://arxiv.org/abs/1707.06347) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) algorithms achieve the best reward in Bipedal Walker2D**.
 
-- **[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves good** reward because it designed for high dimensions continuous space environments and it uses the replay buffer.
+- **[PPO](https://arxiv.org/abs/1707.06347) Reachs the best reward faster** than uses [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because it use gradient algorithm approximation instance of the conjugate. gradient algorithm.
 
-- **[PPO](https://arxiv.org/abs/1707.06347) the least training time** comparing to [DDPG](https://arxiv.org/abs/1509.02971) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because [PPO](https://arxiv.org/abs/1707.06347) uses gradient algorithm approximation instance of the conjugate gradient algorithm.
-
-- **[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) algorithm achieved the maximum Reward** because it takes time to reach the “trusted” region so it slower than [DDPG](https://arxiv.org/abs/1509.02971) and [PPO](https://arxiv.org/abs/1707.06347) .
-
-# Installation
-.. code:: shell
-
-.. code:: shell
+### Installing
+Install OpenAI Gym Envirnment 
+```
+pip install gym
+```
+Install ChainerRL libary
+```
+pip install chainerrl
+```
