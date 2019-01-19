@@ -12,29 +12,36 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 ![OpenAI_Gym](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/OpenAI.png)
 
 ### Observations
-the [observations](http://osim-rl.stanford.edu/docs/nips2018/observation/) can be divided into five components:
 
-- **Body parts:** the agent observes its position, velocity, acceleration, rotation, rotational velocity, and rotational acceleration.
+#### Pendelum
 
-- **Joints:** the agent observes its position, velocity and acceleration.
+- States: cosine and sine of angle between center and pendelum.
 
-- **Muscles:** the agent observes its activation, fiber force, fiber length and fiber velocity.
+#### Bipedal Walker2D
 
-- **Forces:** describes the forces acting on body parts.
-
-- **Center of mass:** the agent observes the position, velocity, and acceleration.
+- 14 Observations: hull angle, hull angular velocity, hip joint angle, hip joint speed, knee joint angle, knee joint speed, etc
 
 ### Actions
 
-- Muscles activation, lenght and velocity
+#### Pendelum
 
-- Joints angels.
+- Joint effort
 
-- Tendons.
+#### Bipedal Walker2D
+
+- 4 Actions: Hip_1 (Torque / Velocity), Hip_2 (Torque / Velocity), Knee_1 (Torque / Velocity) and Knee_2 (Torque / Velocity)
 
 ### Reward
 
-**<img src="https://latex.codecogs.com/gif.latex?R_{t}=9-(3-V_{t})^2" />**
+
+#### Pendelum
+
+**<img src="https://latex.codecogs.com/gif.latex?-(\theta^2 + 0.1\theta_dt^2 + 0.001action^2)" />**
+
+#### Bipedal Walker2D
+
+300+ points up to the far end. If the robot falls, it gets -100 
+
 
 
 Where the <img src="https://latex.codecogs.com/gif.latex?V_{t}"/> is the horizontal velocity vector of the pelvi which is function of all state variables.
