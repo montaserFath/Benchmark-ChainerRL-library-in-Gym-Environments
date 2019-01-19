@@ -9,6 +9,8 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 
 - Open AI Gym has several environments, We Use classical control environments [Pendulum](https://github.com/openai/gym/wiki/Pendulum-v0) and [Bipedal Walker2D](https://github.com/openai/gym/wiki/BipedalWalker-v2) environmens.
 
+![OpenAI_Gym](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/OpenAI.png)
+
 ### Observations
 the [observations](http://osim-rl.stanford.edu/docs/nips2018/observation/) can be divided into five components:
 
@@ -47,7 +49,14 @@ The termination condition for the episode is filling 300 steps or the height of 
 - **[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf)** is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
 
 ## Results
-![Results](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/pro_mean.png)
+
+- **Pendelum**
+
+![Pendelum_result](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/pendulum_mean.png)
+
+- **Bipedal Walker2D**
+
+![Bipedal_results](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/walker_mean.png)
 
 ## Demo
 - **Random Actions**
