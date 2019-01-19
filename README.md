@@ -36,17 +36,13 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 
 #### Pendelum
 
-**<img src="https://latex.codecogs.com/gif.latex?-(\theta^2 + 0.1\theta_dt^2 + 0.001action^2)" />**
+**<img src="https://latex.codecogs.com/gif.latex?R_{t}=\theta^2 + 0.1\theta_dt^2 + 0.001action^2" />**
+
 
 #### Bipedal Walker2D
 
-300+ points up to the far end. If the robot falls, it gets -100 
+- 300+ points up to the far end. If the robot falls, it gets -100 
 
-
-
-Where the <img src="https://latex.codecogs.com/gif.latex?V_{t}"/> is the horizontal velocity vector of the pelvi which is function of all state variables.
-
-The termination condition for the episode is filling 300 steps or the height of the pelvis falling below 0.6 meters
 ## Algorithms and Hyperparameters
 
 - **[DDPG](https://arxiv.org/abs/1509.02971)** is a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.DDPG is based on the deterministic policy gradient (DPG) algorithm. it combines the actor-critic approach with insights from the recent success of Deep Q Network (DQN).
