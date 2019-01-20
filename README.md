@@ -75,19 +75,19 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 ## Demo
 - **Random Actions**
 
-![Random](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/Random_walker2d.gif)
+![Random](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/random.gif)
 
 - **[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf)**
 
-![TRPO](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/TRPO_walker2d.gif)
+![TRPO](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/trpo.gif)
 
 - **[PPO](https://arxiv.org/abs/1707.06347)**
 
-![PPO](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/PPO_walker2d.gif)
+![PPO](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/ppo.gif)
 
 - **[DDPG](https://arxiv.org/abs/1509.02971)**
 
-![DDPG](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/DDPG_walker2d.gif)
+![DDPG](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Demo/ddpg.gif)
 ## Discussion
 
 - **[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves the best reward in Pendelum** because it designed for high dimensions continuous space environments and it uses the replay buffer.
