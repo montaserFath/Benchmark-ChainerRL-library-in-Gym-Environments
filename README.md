@@ -10,6 +10,19 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 - Open AI Gym has several environments, We Use classical control environments [Pendulum](https://github.com/openai/gym/wiki/Pendulum-v0) and [Bipedal Walker2D](https://github.com/openai/gym/wiki/BipedalWalker-v2) environmens.
 
 ![OpenAI_Gym](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/OpenAI.png)
+## Codes:
+
+- [TRPO Pendelum](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Pendulum/TRPO_Pendulum.ipynb
+
+- [PPO Pendelum](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Pendulum/PPO_Pendulum.ipynb)
+
+- [DDPG Pendelum](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Pendulum/DDPG_Pendulum.ipynb)
+
+- [TRPO BipedalWalker](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/BipedalWalder2d/DDPG_BiPedalWalker.ipynb)
+
+- [PPO BipedalWalker](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/BipedalWalder2d/PPO_walker2d.ipynb)
+
+- [DDPG BipedalWalker](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/BipedalWalder2d/DDPG_BiPedalWalker.ipynb)
 
 ### Observations
 
