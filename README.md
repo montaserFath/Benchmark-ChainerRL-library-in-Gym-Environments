@@ -12,7 +12,7 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 ![OpenAI_Gym](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Results/OpenAI.png)
 ## Codes:
 
-- [TRPO Pendelum](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Pendulum/TRPO_Pendulum.ipynb
+- [TRPO Pendelum](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Pendulum/TRPO_Pendulum.ipynb)
 
 - [PPO Pendelum](https://github.com/montaserFath/Benchmark-ChainerRL-library-in-Gym-Environments/blob/master/Pendulum/PPO_Pendulum.ipynb)
 
