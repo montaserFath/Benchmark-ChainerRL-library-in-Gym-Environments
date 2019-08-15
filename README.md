@@ -112,9 +112,9 @@ Benchmark ChainerRL library in [OpenAI Gym](https://gym.openai.com/) Environment
 ### Installing
 Install OpenAI Gym Envirnment 
 ```
-pip install gym
+pip3 install gym
 ```
 Install ChainerRL libary
 ```
-pip install chainerrl
+pip3 install chainerrl
 ```
